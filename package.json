@@ -1,0 +1,22 @@
+{
+  "name": "api-example",
+  "version": "1.0.0",
+  "description": "Exemplo de como salvar Array em uma tabela do Mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server.js",
+    "dev": "cross-env NODE_ENV=development nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Deivson Bezerra Ferreira - https://github.com/deivsonbf",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
